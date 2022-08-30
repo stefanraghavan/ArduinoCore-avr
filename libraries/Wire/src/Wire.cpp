@@ -22,10 +22,10 @@
 */
 
 extern "C" {
-  #include <stdlib.h>
-  #include <string.h>
-  #include <inttypes.h>
-  #include "utility/twi.h"
+  #include <AP_Scripting/avr-libc/avr-libc/include/stdlib.h>
+  #include <AP_Scripting/ArduinoCore-API/api/string.h>
+  #include <AP_Scripting/avr-libc/avr-libc/include/inttypes.h>
+  #include <AP_Scripting/ArduinoCore-avr/libraries/Wire/src/utility/twi.h>
 }
 
 #include "Wire.h"

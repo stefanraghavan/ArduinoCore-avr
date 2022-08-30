@@ -23,8 +23,8 @@
 #ifndef TwoWire_h
 #define TwoWire_h
 
-#include <inttypes.h>
-#include "Stream.h"
+#include <AP_Scripting/avr-libc/avr-libc/include/inttypes.h>
+#include <AP_Scripting/ArduinoCore-API/api/Stream.h>
 
 #define BUFFER_LENGTH 32
 

@@ -20,16 +20,16 @@
 #ifndef Arduino_h
 #define Arduino_h
 
-#include <stdlib.h>
+#include <AP_Scripting/avr-libc/avr-libc/include/stdlib.h>
 #include <stdbool.h>
-#include <string.h>
-#include <math.h>
+#include <AP_Scripting/ArduinoCore-API/api/string.h>
+#include <AP_Scripting/avr-libc/avr-libc/include/math.h>
 
-#include <avr/pgmspace.h>
-#include <avr/io.h>
-#include <avr/interrupt.h>
+#include <AP_Scripting/avr-libc/avr-libc/include/avr/pgmspace.h>
+#include <AP_Scripting/avr-libc/avr-libc/include/avr/io.h>
+#include <AP_Scripting/avr-libc/avr-libc/include/avr/interrupt.h>
 
-#include "binary.h"
+#include <AP_Scripting/ArduinoCore-avr/cores/arduino/binary.h>
 
 #ifdef __cplusplus
 extern "C"{
